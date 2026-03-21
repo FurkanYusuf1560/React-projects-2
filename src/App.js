@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import PaginationTest from './components/1.pagination/test';
+import DigitalClock from './components/2.digital-clock';
+import CountdownTimerTest from './components/3. countdown-timer/test';
+import StepProgressBarTest from './components/4. step-progress-bar/test';
+import RandomQuoteGenerator from './components/5. random-quote-generator';
+import ToolTipTest from './components/6. Tooltip/test';
+import CurrencyConverter from './components/7. currency-converter';
+import FilterProducts from './components/8. filter-products';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <PaginationTest/>
+      <DigitalClock/>
+      <CountdownTimerTest/>
+      <StepProgressBarTest/>
+      <RandomQuoteGenerator/>
+      <ToolTipTest/>
+      <CurrencyConverter/>
+      <FilterProducts/>
     </div>
   );
 }

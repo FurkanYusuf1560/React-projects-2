@@ -1,0 +1,21 @@
+
+
+.digital-clock{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.time{
+    font-size: 30px;
+    color: #61dafb;
+    margin-left: 80px;
+}
+
+.date {
+    font-size: 25px;
+    color: #aa1f09;;
+}
