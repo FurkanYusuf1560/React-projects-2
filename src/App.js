@@ -14,6 +14,7 @@ import PdfViewer from './components/19. pdf-viewer';
 import DigitalClock from './components/2.digital-clock';
 import FirebaseTodo from './components/20. firebase-todo';
 import FirebaseAuth from './components/21. firebase-auth';
+import MovieApp from './components/24. movie-app';
 import CountdownTimerTest from './components/3. countdown-timer/test';
 import StepProgressBarTest from './components/4. step-progress-bar/test';
 import RandomQuoteGenerator from './components/5. random-quote-generator';
@@ -21,6 +22,9 @@ import ToolTipTest from './components/6. Tooltip/test';
 import CurrencyConverter from './components/7. currency-converter';
 import FilterProducts from './components/8. filter-products';
 import TipCalculator from './components/9. tip-calculator';
+import DebounceApiCall from "./components/22. debounce-api-call";
+import SortData from "./components/23. sort-data";
+import GoogleOAuthLogin from "./components/25. google-oauth-login";
 
 function App() {
   return (
@@ -45,7 +49,11 @@ function App() {
       {/* <NestedComments/> */}
       {/* <PdfViewer/> */}
       {/* <FirebaseTodo/> */}
-      <FirebaseAuth/>
+      {/* <FirebaseAuth/> */}
+       <DebounceApiCall/>
+      <SortData/>
+      <MovieApp/>
+      <GoogleOAuthLogin/>
     </div>
   );
 }

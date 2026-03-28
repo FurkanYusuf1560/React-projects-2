@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import GlobalState from './components/24. movie-app/context/GlobalState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <GlobalState>
+      <App />
+    </GlobalState>
+    
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
